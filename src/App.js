@@ -10,6 +10,7 @@ import Default from './Components/Default';
 import Modal from './Components/Modal';
 
 function App() {
+  
   return (
     <React.Fragment>
       <Navbar />
