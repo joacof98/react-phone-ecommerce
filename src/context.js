@@ -4,6 +4,7 @@ import {storeProducts,detailProduct} from './data';
 const ProductContext = React.createContext();
 //Provider: Desde este punto sale cualquier info a los componentes.
 //Consumer: Convierto en consumidor a X componente, y agarro todo lo que me da el proveedor.
+//create-react-app YA CREA REPOSITORIO EN LA CARPETA
 
 class ProductProvider extends Component {
   state = {
